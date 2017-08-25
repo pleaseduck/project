@@ -27,9 +27,21 @@
   font-style: italic;
   font-weight: bold;
   color: #00a9ba;
+  &:hover {
+    color: lighten(#00a9ba, 10%);
+  }
+  &:active {
+    color: #00a9ba;
+  }
 }
 .promo-catalog:nth-of-type(2n) .promo-catalog__title a {
   color: #ff4081;
+  &:hover {
+    color: lighten(#ff4081, 10%);
+  }
+  &:active {
+    color: #ff4081;
+  }
 }
 .promo-catalog__wrapper {
   display: flex;

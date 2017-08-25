@@ -20,6 +20,7 @@
   width: 18px;
   height: 18px;
   background-image: url("../img/sprite.svg");
+  cursor: pointer;
 }
 .icon-heart {
   display: inline-block;
@@ -229,6 +230,12 @@
   text-decoration: none;
   color: black;
 }
+.promo-catalog__item a:hover {
+  color: grey;
+}
+.promo-catalog__item a:active {
+  color: #a6a6a6;
+}
 .promo-catalog__item img {
   margin-bottom: 15px;
 }
@@ -299,7 +306,19 @@
   font-weight: bold;
   color: #00a9ba;
 }
+.promo-catalog__title a:hover {
+  color: #00d7ed;
+}
+.promo-catalog__title a:active {
+  color: #00a9ba;
+}
 .promo-catalog:nth-of-type(2n) .promo-catalog__title a {
+  color: #ff4081;
+}
+.promo-catalog:nth-of-type(2n) .promo-catalog__title a:hover {
+  color: #ff73a3;
+}
+.promo-catalog:nth-of-type(2n) .promo-catalog__title a:active {
   color: #ff4081;
 }
 .promo-catalog__wrapper {
